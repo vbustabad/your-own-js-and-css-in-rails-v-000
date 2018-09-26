@@ -5,10 +5,14 @@
   <%= csrf_meta_tags %>
   <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
 </head>
-<body class=".cool-background">
+<body>
 
 <%= yield %>
 <%= javascript_include_tag "application" %>
+
+<script>
+    $('body').addClass('cool-background')
+</script>
 
 </body>
 </html>
