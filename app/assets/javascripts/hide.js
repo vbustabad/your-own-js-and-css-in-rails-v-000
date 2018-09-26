@@ -1,8 +1,8 @@
 function hideWhenClicked() {
-  var x = document.getElementById("hide_this");
-  if (x.style.display === "none") {
-      x.style.display = "block";
+  var link = document.getElementById("hide_this");
+  if (link.style.display === "none") {
+      link.style.display = "block";
   } else {
-      x.style.display = "none";
+      link.style.display = "none";
   }
 }
